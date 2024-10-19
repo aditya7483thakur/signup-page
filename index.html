@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="illustration">
+        <img src="nw logo.png" alt="placeholder" class="placeholder-image" />
+      </div>
+      <div class="form-container">
+        <h1>CREATE ACCOUNT</h1>
+        <p>Register to start your journey</p>
+        <form id="registerForm">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="text" id="username" placeholder="Username" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm Password"
+            required
+          />
+          <button type="submit">Register</button>
+        </form>
+        <p>OR REGISTER WITH</p>
+        <div class="social-login">
+          <button class="social-btn instagram" href="">
+            <img
+              src="C:\Users\User\Downloads\Instagram_logo_2022.png"
+              class="gram"
+            />
+          </button>
+          <button class="social-btn facebook">
+            <img src="C:\Users\User\Downloads\facebook.png" class="face" />
+          </button>
+          <button class="social-btn google">
+            <img
+              src="C:\Users\User\Downloads\google_profile.webp"
+              class="goo"
+            />
+          </button>
+          <button class="social-btn twitter">
+            <img
+              src="C:\Users\User\Downloads\Logo_of_Twitter.png"
+              class="twi"
+            />
+          </button>
+        </div>
+        <p>Already have an account? <a href="#">Login Here</a></p>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
